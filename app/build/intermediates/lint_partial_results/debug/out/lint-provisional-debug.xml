@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.1.3" type="conditional_incidents">
+
+    <incident
+        id="UsingOnClickInXml"
+        severity="warning"
+        message="Use databinding or explicit wiring of click listener in code">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_insurance.xml"
+            line="88"
+            column="13"
+            startOffset="3431"
+            endLine="88"
+            endColumn="39"
+            endOffset="3457"/>
+        <map>
+            <condition minLT="23"/>
+        </map>
+    </incident>
+
+    <incident
+        id="UsingOnClickInXml"
+        severity="warning"
+        message="Use databinding or explicit wiring of click listener in code">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_insurance.xml"
+            line="102"
+            column="13"
+            startOffset="4012"
+            endLine="102"
+            endColumn="35"
+            endOffset="4034"/>
+        <map>
+            <condition minLT="23"/>
+        </map>
+    </incident>
+
+    <incident
+        id="UsingOnClickInXml"
+        severity="warning"
+        message="Use databinding or explicit wiring of click listener in code">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_list.xml"
+            line="30"
+            column="9"
+            startOffset="1158"
+            endLine="30"
+            endColumn="35"
+            endOffset="1184"/>
+        <map>
+            <condition minLT="23"/>
+        </map>
+    </incident>
+
+    <incident
+        id="UsingOnClickInXml"
+        severity="warning"
+        message="Use databinding or explicit wiring of click listener in code">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="76"
+            column="9"
+            startOffset="3128"
+            endLine="76"
+            endColumn="38"
+            endOffset="3157"/>
+        <map>
+            <condition minLT="23"/>
+        </map>
+    </incident>
+
+    <incident
+        id="UsingOnClickInXml"
+        severity="warning"
+        message="Use databinding or explicit wiring of click listener in code">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="92"
+            column="9"
+            startOffset="3765"
+            endLine="92"
+            endColumn="35"
+            endOffset="3791"/>
+        <map>
+            <condition minLT="23"/>
+        </map>
+    </incident>
+
+    <incident
+        id="UsingOnClickInXml"
+        severity="warning"
+        message="Use databinding or explicit wiring of click listener in code">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="88"
+            column="13"
+            startOffset="3462"
+            endLine="88"
+            endColumn="39"
+            endOffset="3488"/>
+        <map>
+            <condition minLT="23"/>
+        </map>
+    </incident>
+
+    <incident
+        id="UsingOnClickInXml"
+        severity="warning"
+        message="Use databinding or explicit wiring of click listener in code">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="102"
+            column="13"
+            startOffset="4036"
+            endLine="102"
+            endColumn="37"
+            endOffset="4060"/>
+        <map>
+            <condition minLT="23"/>
+        </map>
+    </incident>
+
+</incidents>

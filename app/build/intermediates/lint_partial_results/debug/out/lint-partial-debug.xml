@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.1.3" type="partial_results">
+    <map id="VectorDrawableCompat">
+        <entry
+            name="ic_launcher_background"
+            boolean="false"/>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.dimen.activityHori"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/dimens.xml"
+            line="4"
+            column="12"
+            startOffset="106"
+            endLine="4"
+            endColumn="31"
+            endOffset="125"/>
+        <location id="R.anim.slide_fast"
+            file="${:app*debug*sourceProvider*0*resDir*0}/anim/slide_fast.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="7"
+            endColumn="7"
+            endOffset="223"/>
+        <location id="R.anim.slide_slow"
+            file="${:app*debug*sourceProvider*0*resDir*0}/anim/slide_slow.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="7"
+            endColumn="7"
+            endOffset="223"/>
+        <entry
+            name="model"
+            string="anim[slide_fast(D),slide_slow(D)],color[browser_actions_bg_grey(R)],dimen[activityVert(D),activityHori(D)],drawable[ic_launcher_background(U)],id[carTypeInput(U),insuranceList(U),icon(R),passwordConfirmInput(U),googleLoginButton(U),emailInput(U),firstNameInput(U),cancelButton(D),registerButton(D),lastNameInput(U),loginButton(U),passwordInput(U),listButton(D)],integer[google_play_services_version(R)],layout[activity_insurance(U),activity_main(U),activity_list(U),activity_register(U)],mipmap[ic_launcher_foreground(U),ic_launcher(U)],string[cancel(U),lastName(U),insurances(U),insuranceRegister(U),list(U),login(U),googleLogin(U),firstName(U),password(U),carType(U),passwordConfirm(U),projectName(U),email(U),register(U)],style[TextAppearance_AppCompat_Medium(R),Theme_AppCompat_Light(R)];14^2^29^21^1b^c^23^f^6^1d^1e,15^29^2^26^28^22^b^1f^11^20^10^27^a,16^2^29^1c^7^1d,17^2^29^26^22^b^24^11^9^27^1a,19^5^18;;;"/>
+        <location id="R.dimen.activityVert"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/dimens.xml"
+            line="3"
+            column="12"
+            startOffset="62"
+            endLine="3"
+            endColumn="31"
+            endOffset="81"/>
+    </map>
+
+</incidents>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/browser_actions_bg_grey"
+    android:theme="@style/Theme.AppCompat.Light"
+    tools:context=".InsuranceRegisterActivity">
+
+    <EditText
+        android:id="@+id/firstNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:autofillHints=""
+        android:background="@color/browser_actions_bg_grey"
+        android:ems="10"
+        android:hint="@string/firstName"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHint="#DD423F3F"
+        android:theme="@style/Theme.AppCompat.Light" />
+
+    <EditText
+        android:id="@+id/lastNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstNameInput"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:autofillHints=""
+        android:background="@color/browser_actions_bg_grey"
+        android:ems="10"
+        android:hint="@string/lastName"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHint="#DD423F3F"
+        android:theme="@style/Theme.AppCompat.Light" />
+
+    <EditText
+        android:id="@+id/carTypeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lastNameInput"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:autofillHints=""
+        android:background="@color/browser_actions_bg_grey"
+        android:ems="10"
+        android:hint="@string/carType"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHint="#DD423F3F"
+        android:theme="@style/Theme.AppCompat.Light" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/carTypeInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:theme="@style/Theme.AppCompat.Light">
+
+        <Button
+            android:id="@+id/registerButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:onClick="register"
+            android:text="@string/insuranceRegister"
+            android:textColor="#000000"
+            android:theme="@style/Theme.AppCompat.Light"
+            app:backgroundTint="#03A9F4"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <Button
+            android:id="@+id/listButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:fontFamily="sans-serif"
+            android:onClick="list"
+            android:text="@string/list"
+            android:textColor="#000000"
+            android:theme="@style/Theme.AppCompat.Light"
+            app:backgroundTint="#03A9F4" />
+    </LinearLayout>
+
+
+</RelativeLayout>

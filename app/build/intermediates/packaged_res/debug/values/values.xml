@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activityHori">10dp</dimen>
+    <dimen name="activityVert">10dp</dimen>
+    <string name="cancel">Megse</string>
+    <string name="carType">Kocsi neve</string>
+    <string name="default_web_client_id" translatable="false">1065583486537-hc9agaohq65r1ed309uvvv4880siau9v.apps.googleusercontent.com</string>
+    <string name="email">E-Mail</string>
+    <string name="firstName">Keresztnev</string>
+    <string name="gcm_defaultSenderId" translatable="false">1065583486537</string>
+    <string name="googleLogin">Bejelentkezes Google-lel</string>
+    <string name="google_api_key" translatable="false">AIzaSyAxFfw2saJ37zoyIggLX8rUTqOyNCbKHXc</string>
+    <string name="google_app_id" translatable="false">1:1065583486537:android:89816a94385290cd6d8198</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAxFfw2saJ37zoyIggLX8rUTqOyNCbKHXc</string>
+    <string name="google_storage_bucket" translatable="false">androidauto-909cc.appspot.com</string>
+    <string name="insuranceRegister">Foglalas</string>
+    <string name="insurances">Nem talalhato biztositas!</string>
+    <string name="lastName">Vezeteknev</string>
+    <string name="list">Listazas</string>
+    <string name="login">Bejelentkezes</string>
+    <string name="password">Jelszo</string>
+    <string name="passwordConfirm">Jelszo (ismetles)</string>
+    <string name="projectName">Auto</string>
+    <string name="project_id" translatable="false">androidauto-909cc</string>
+    <string name="register">Regisztracio</string>
+</resources>

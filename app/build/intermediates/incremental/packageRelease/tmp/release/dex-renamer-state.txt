@@ -1,0 +1,10 @@
+#Sat May 07 04:32:08 CEST 2022
+base.2=/home/a/AndroidStudioProjects/Mobil/app/build/intermediates/dex/release/mergeDexRelease/classes3.dex
+path.2=classes3.dex
+base.1=/home/a/AndroidStudioProjects/Mobil/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
+path.1=classes2.dex
+base.0=/home/a/AndroidStudioProjects/Mobil/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

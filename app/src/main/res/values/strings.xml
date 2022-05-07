@@ -1,0 +1,16 @@
+<resources>
+    <string name="projectName">Auto</string>
+    <string name="login">Bejelentkezes</string>
+    <string name="googleLogin">Bejelentkezes Google-lel</string>
+    <string name="register">Regisztracio</string>
+    <string name="cancel">Megse</string>
+    <string name="email">E-Mail</string>
+    <string name="password">Jelszo</string>
+    <string name="passwordConfirm">Jelszo (ismetles)</string>
+    <string name="list">Listazas</string>
+    <string name="insuranceRegister">Foglalas</string>
+    <string name="firstName">Keresztnev</string>
+    <string name="lastName">Vezeteknev</string>
+    <string name="carType">Kocsi neve</string>
+    <string name="insurances">Nem talalhato biztositas!</string>
+</resources>

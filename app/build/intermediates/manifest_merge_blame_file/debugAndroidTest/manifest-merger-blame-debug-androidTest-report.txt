@@ -1,0 +1,32 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.auto.test" >
+4
+5    <uses-sdk
+5-->/home/a/AndroidStudioProjects/Mobil/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9896563008685315816.xml:5:5-74
+6        android:minSdkVersion="19"
+6-->/home/a/AndroidStudioProjects/Mobil/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9896563008685315816.xml:5:15-41
+7        android:targetSdkVersion="32" />
+7-->/home/a/AndroidStudioProjects/Mobil/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9896563008685315816.xml:5:42-71
+8
+9    <instrumentation
+9-->/home/a/AndroidStudioProjects/Mobil/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9896563008685315816.xml:11:5-15:58
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->/home/a/AndroidStudioProjects/Mobil/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9896563008685315816.xml:11:22-76
+11        android:functionalTest="false"
+11-->/home/a/AndroidStudioProjects/Mobil/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9896563008685315816.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/home/a/AndroidStudioProjects/Mobil/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9896563008685315816.xml:13:22-53
+13        android:label="Tests for com.auto"
+13-->/home/a/AndroidStudioProjects/Mobil/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9896563008685315816.xml:15:22-56
+14        android:targetPackage="com.auto" />
+14-->/home/a/AndroidStudioProjects/Mobil/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9896563008685315816.xml:12:22-54
+15
+16    <application android:debuggable="true" >
+16-->/home/a/AndroidStudioProjects/Mobil/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9896563008685315816.xml:7:5-9:19
+17        <uses-library android:name="android.test.runner" />
+17-->/home/a/AndroidStudioProjects/Mobil/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9896563008685315816.xml:8:9-60
+17-->/home/a/AndroidStudioProjects/Mobil/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9896563008685315816.xml:8:23-57
+18    </application>
+19
+20</manifest>

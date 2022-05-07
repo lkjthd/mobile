@@ -1,0 +1,119 @@
+/home/a/AndroidStudioProjects/Mobil/app/build.gradle:42: Warning: A newer version of com.google.firebase:firebase-firestore than 24.1.1 is available: 24.1.2 [GradleDependency]
+    implementation 'com.google.firebase:firebase-firestore:24.1.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/a/AndroidStudioProjects/Mobil/app/build.gradle:46: Warning: A newer version of com.google.firebase:firebase-bom than 29.3.1 is available: 30.0.0 [GradleDependency]
+    implementation platform('com.google.firebase:firebase-bom:29.3.1')
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+/home/a/AndroidStudioProjects/Mobil/app/src/main/res/layout/activity_insurance.xml:88: Warning: Use databinding or explicit wiring of click listener in code [UsingOnClickInXml from appcompat-1.4.1]
+            android:onClick="register"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/a/AndroidStudioProjects/Mobil/app/src/main/res/layout/activity_insurance.xml:102: Warning: Use databinding or explicit wiring of click listener in code [UsingOnClickInXml from appcompat-1.4.1]
+            android:onClick="list"
+            ~~~~~~~~~~~~~~~~~~~~~~
+/home/a/AndroidStudioProjects/Mobil/app/src/main/res/layout/activity_list.xml:30: Warning: Use databinding or explicit wiring of click listener in code [UsingOnClickInXml from appcompat-1.4.1]
+        android:onClick="register"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/a/AndroidStudioProjects/Mobil/app/src/main/res/layout/activity_main.xml:76: Warning: Use databinding or explicit wiring of click listener in code [UsingOnClickInXml from appcompat-1.4.1]
+        android:onClick="googleLogin"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/a/AndroidStudioProjects/Mobil/app/src/main/res/layout/activity_main.xml:92: Warning: Use databinding or explicit wiring of click listener in code [UsingOnClickInXml from appcompat-1.4.1]
+        android:onClick="register"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/a/AndroidStudioProjects/Mobil/app/src/main/res/layout/activity_register.xml:88: Warning: Use databinding or explicit wiring of click listener in code [UsingOnClickInXml from appcompat-1.4.1]
+            android:onClick="register"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/a/AndroidStudioProjects/Mobil/app/src/main/res/layout/activity_register.xml:102: Warning: Use databinding or explicit wiring of click listener in code [UsingOnClickInXml from appcompat-1.4.1]
+            android:onClick="cancel"
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UsingOnClickInXml":
+   Old versions of the platform do not properly support resolving
+   android:onClick
+
+   Vendor: Android Open Source Project (appcompat-1.4.1)
+   Identifier: appcompat-1.4.1
+   Feedback: https://issuetracker.google.com/issues/new?component=192731
+
+/home/a/AndroidStudioProjects/Mobil/app/src/main/res/layout/activity_insurance.xml:7: Warning: Possible overdraw: Root element paints background @color/browser_actions_bg_grey with a theme that also paints a background (inferred theme is @android:style/Theme.Holo) [Overdraw]
+    android:background="@color/browser_actions_bg_grey"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/a/AndroidStudioProjects/Mobil/app/src/main/res/layout/activity_list.xml:7: Warning: Possible overdraw: Root element paints background @color/browser_actions_bg_grey with a theme that also paints a background (inferred theme is @android:style/Theme.Holo) [Overdraw]
+    android:background="@color/browser_actions_bg_grey"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/a/AndroidStudioProjects/Mobil/app/src/main/res/layout/activity_main.xml:7: Warning: Possible overdraw: Root element paints background #FFFFFF with a theme that also paints a background (inferred theme is @android:style/Theme.Holo) [Overdraw]
+    android:background="#FFFFFF"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/a/AndroidStudioProjects/Mobil/app/src/main/res/layout/activity_register.xml:7: Warning: Possible overdraw: Root element paints background @color/browser_actions_bg_grey with a theme that also paints a background (inferred theme is @android:style/Theme.Holo) [Overdraw]
+    android:background="@color/browser_actions_bg_grey"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "Overdraw":
+   If you set a background drawable on a root view, then you should use a
+   custom theme where the theme background is null. Otherwise, the theme
+   background will be painted first, only to have your custom background
+   completely cover it; this is called "overdraw".
+
+   NOTE: This detector relies on figuring out which layouts are associated
+   with which activities based on scanning the Java code, and it's currently
+   doing that using an inexact pattern matching algorithm. Therefore, it can
+   incorrectly conclude which activity the layout is associated with and then
+   wrongly complain that a background-theme is hidden.
+
+   If you want your custom background on multiple pages, then you should
+   consider making a custom theme with your custom background and just using
+   that theme instead of a root element background.
+
+   Of course it's possible that your custom drawable is translucent and you
+   want it to be mixed with the background. However, you will get better
+   performance if you pre-mix the background with your drawable and use that
+   resulting image or color as a custom theme background instead.
+
+/home/a/AndroidStudioProjects/Mobil/app/src/main/res/values/dimens.xml:3: Warning: The resource R.dimen.activityVert appears to be unused [UnusedResources]
+    <dimen name="activityVert">10dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~
+/home/a/AndroidStudioProjects/Mobil/app/src/main/res/values/dimens.xml:4: Warning: The resource R.dimen.activityHori appears to be unused [UnusedResources]
+    <dimen name="activityHori">10dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~
+/home/a/AndroidStudioProjects/Mobil/app/src/main/res/anim/slide_fast.xml:2: Warning: The resource R.anim.slide_fast appears to be unused [UnusedResources]
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+^
+/home/a/AndroidStudioProjects/Mobil/app/src/main/res/anim/slide_slow.xml:2: Warning: The resource R.anim.slide_slow appears to be unused [UnusedResources]
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+^
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests=true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests=true.
+
+/home/a/AndroidStudioProjects/Mobil/app/src/main/res/mipmap-hdpi/ic_launcher.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
+/home/a/AndroidStudioProjects/Mobil/app/src/main/res/mipmap-mdpi/ic_launcher.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
+/home/a/AndroidStudioProjects/Mobil/app/src/main/res/mipmap-xhdpi/ic_launcher.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
+/home/a/AndroidStudioProjects/Mobil/app/src/main/res/mipmap-xxhdpi/ic_launcher.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
+/home/a/AndroidStudioProjects/Mobil/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
+
+   Explanation for issues of type "IconLauncherShape":
+   According to the Android Design Guide
+   (https://material.io/design/iconography/) your launcher icons should "use a
+   distinct silhouette", a "three-dimensional, front view, with a slight
+   perspective as if viewed from above, so that users perceive some depth."
+
+   The unique silhouette implies that your launcher icon should not be a
+   filled square.
+
+0 errors, 22 warnings

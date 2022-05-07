@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.1.3" type="incidents">
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.firebase:firebase-firestore than 24.1.1 is available: 24.1.2">
+        <fix-replace
+            description="Change to 24.1.2"
+            family="Update versions"
+            oldString="24.1.1"
+            replacement="24.1.2"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="42"
+            column="20"
+            startOffset="1413"
+            endLine="42"
+            endColumn="67"
+            endOffset="1460"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.firebase:firebase-bom than 29.3.1 is available: 30.0.0">
+        <fix-replace
+            description="Change to 30.0.0"
+            family="Update versions"
+            oldString="29.3.1"
+            replacement="30.0.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="46"
+            column="29"
+            startOffset="1638"
+            endLine="46"
+            endColumn="70"
+            endOffset="1679"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@color/browser_actions_bg_grey` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_insurance.xml"
+            line="7"
+            column="5"
+            startOffset="306"
+            endLine="7"
+            endColumn="56"
+            endOffset="357"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@color/browser_actions_bg_grey` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_list.xml"
+            line="7"
+            column="5"
+            startOffset="306"
+            endLine="7"
+            endColumn="56"
+            endOffset="357"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `#FFFFFF` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="7"
+            column="5"
+            startOffset="341"
+            endLine="7"
+            endColumn="33"
+            endOffset="369"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@color/browser_actions_bg_grey` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="7"
+            column="5"
+            startOffset="306"
+            endLine="7"
+            endColumn="56"
+            endOffset="357"/>
+    </incident>
+
+    <incident
+        id="IconLauncherShape"
+        severity="warning"
+        message="Launcher icons should not fill every pixel of their square region; see the design guide for details">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/mipmap-hdpi/ic_launcher.png"/>
+    </incident>
+
+    <incident
+        id="IconLauncherShape"
+        severity="warning"
+        message="Launcher icons should not fill every pixel of their square region; see the design guide for details">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/mipmap-mdpi/ic_launcher.png"/>
+    </incident>
+
+    <incident
+        id="IconLauncherShape"
+        severity="warning"
+        message="Launcher icons should not fill every pixel of their square region; see the design guide for details">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/mipmap-xhdpi/ic_launcher.png"/>
+    </incident>
+
+    <incident
+        id="IconLauncherShape"
+        severity="warning"
+        message="Launcher icons should not fill every pixel of their square region; see the design guide for details">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/mipmap-xxhdpi/ic_launcher.png"/>
+    </incident>
+
+    <incident
+        id="IconLauncherShape"
+        severity="warning"
+        message="Launcher icons should not fill every pixel of their square region; see the design guide for details">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/mipmap-xxxhdpi/ic_launcher.png"/>
+    </incident>
+
+</incidents>
